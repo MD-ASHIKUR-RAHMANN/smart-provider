@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-area{
+    background-image: url(../smart-website/assests/img/pg-2-hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 590px;
+    width: 100%;
+    &__titel{
+        margin-top: 100px;
+        h1{
+            color: #FFF;
+            text-align: center;
+            font-family: Graphik;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 72px;
+        }
+    }
+}
+.hero-img{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: -20px;
+    & img{
+        width: 100%;
+    }
+}
+.midle-area{
+    width: 100%;
+    position: relative;
+    &__info-box{
+        margin-top: 70px;
+        position: relative;
+        align-items: center;
+        &__titel{
+            width: 50%;
+            padding-right: 155px;
+            h1{
+                color: var(--title-color, #0A2540);
+                font-family: Graphik;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 52px;
+                text-transform: capitalize;
+            }
+            p{
+                color: #0A2540;
+                font-family: Graphik;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 34px; 
+            }
+        }
+        &__img{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    &__info-box2{
+        margin-top: 70px;
+        justify-content: center;
+        align-items: center;
+        &__titel{
+            width: 50%;            
+            padding-left: 155px;
+            h1{
+                color: var(--title-color, #0A2540);
+                font-family: Graphik;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 52px;
+                text-transform: capitalize;
+            }
+            p{
+                color: #0A2540;
+                font-family: Graphik;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 34px; 
+            }
+        }
+        &__img{
+            width: 50%;
+            text-align: center;
+        }
+    }
+}
+
+.bottom-area{
+    margin-top: 130px;
+    margin-bottom: 2px;
+    & h1{
+        text-align: center;
+        color: #0A2540;
+        text-align: center;
+        font-family: Graphik;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 64px;
+    }
+    &__option-box{
+        margin-top: 40px;
+        padding: 50px;
+        border-radius: 16px;
+        border: 1px solid rgba(66, 84, 102, 0.20);
+        background: #FFF;
+        & img{
+            margin: auto 0;
+            width: 25px;
+        }
+        & p{
+            margin: auto 0;
+            position: relative;
+            top: 1px;
+            color: #0A2540;
+            font-family: Graphik;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; 
+            margin-left: 16px;
+        }
+    }
+    &__option{
+        margin-bottom: 32px;
+    }
+    &__last-option{
+        top: 8px;
+        position: relative;
+        p{
+        color:#0A2540;
+        font-family: Graphik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 20px; 
+        text-transform: capitalize;
+        margin: auto;
+        text-align: center;
+    }
+}
+}
