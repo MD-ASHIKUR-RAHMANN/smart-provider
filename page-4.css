@@ -71,19 +71,13 @@
 .midle-area {
   width: 100%;
   text-align: center;
+  margin-top: 250px;
 }
 @media (max-width: 425px) {
   .midle-area {
     width: 90%;
     margin: auto;
-  }
-}
-.midle-area__titel {
-  padding-top: 100px;
-}
-@media (max-width: 767px) {
-  .midle-area__titel {
-    padding-top: 0;
+    margin-top: 260px;
   }
 }
 .midle-area__titel h1 {

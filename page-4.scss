@@ -62,15 +62,13 @@
 .midle-area{
     width: 100%;
     text-align: center;
+    margin-top: 250px;
     @media (max-width:425px) {
         width: 90%;
         margin: auto;
+        margin-top: 260px;
     }
     &__titel{
-        padding-top: 100px;
-        @media (max-width:767px) {
-            padding-top: 0;
-        }
         h1{
             color: #0A2540;
             text-align: center;
