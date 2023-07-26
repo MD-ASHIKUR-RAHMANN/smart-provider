@@ -7,8 +7,8 @@ $desktop: '(min-width: 1281px)';
     padding: 0;
     box-sizing: border-box;
 }
-.hero-area{
-    background-image: url(../smart-website/assests/img/pg-2-hero-bg.png);
+.page4-hero-area{
+    background-image: url(../smart-website/assets/img/pg-2-hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -16,7 +16,7 @@ $desktop: '(min-width: 1281px)';
     width: 100%;
     @media (max-width: 767px) {
         height: 280px;
-        background-image: url(../smart-website/assests/img/pg3-hero.png);
+        background-image: url(../smart-website/assets/img/pg3-hero.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;

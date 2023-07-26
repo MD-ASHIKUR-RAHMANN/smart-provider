@@ -7,6 +7,15 @@ $desktop: '(min-width: 1281px)';
     margin: 0;
     box-sizing: border-box;
 }
+@import "responsive.scss";
+@import "smartPage2.scss";
+@import "page2.scss";
+@import "page2responsive.scss";
+@import "page3.scss";
+@import "page4.scss";
+
+
+
 .row{
     margin: 0;
 }

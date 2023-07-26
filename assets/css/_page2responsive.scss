@@ -67,7 +67,7 @@ $desktop: '(min-width: 1281px)';
     }
 }
 @media #{$large_mobile}{
-    .hero-area{
+    .page2-hero-area{
         height: 280px;
         &__titel{
             margin-top: 40px;
@@ -179,7 +179,7 @@ $desktop: '(min-width: 1281px)';
     }
 }
 @media (max-width:576px) and (min-width:320px){
-    .hero-area{
+    .page2-hero-area{
         height: 280px;
         &__titel{
             margin-top: 40px;
