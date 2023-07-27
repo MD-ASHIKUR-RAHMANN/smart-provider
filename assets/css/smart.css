@@ -176,6 +176,11 @@
     margin-top: 26px;
     opacity: 0.8000000119;
   }
+  .home-hero-area__text-area img {
+    width: 26%;
+    top: -15px;
+    position: relative;
+  }
   .home-hero-area__trial-btn {
     border-radius: 100px;
     color: #FFF;

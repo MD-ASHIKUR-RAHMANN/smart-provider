@@ -186,6 +186,11 @@ $desktop: '(min-width: 1281px)';
                 margin-top: 26px;
                 opacity: 0.800000011920929;
             }
+            img{
+                width: 26%;
+                top: -15px;
+                position: relative;
+            }
         }
         &__trial-btn{
             border-radius: 100px;
