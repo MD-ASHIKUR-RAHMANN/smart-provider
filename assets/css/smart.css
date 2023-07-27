@@ -17,11 +17,11 @@
     justify-content: space-between !important;
     padding: 15px 50px;
   }
-  .bottom-area__info {
+  .home-bottom-area__info {
     margin-top: 60px;
     margin-left: auto;
   }
-  .bottom-area__info-box {
+  .home-bottom-area__info-box {
     border: 1px solid rgba(66, 84, 102, 0.2);
     margin: auto;
     border-radius: 16px;
@@ -131,6 +131,9 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler {
+    width: 56px !important;
+  }
   .navbar-nav {
     margin: 20px 0;
   }
@@ -145,17 +148,17 @@
   .row {
     margin: 0;
   }
-  .hero-area {
+  .home-hero-area {
     background-image: url(../img/hero-bg-done.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
   }
-  .hero-area__text-area {
+  .home-hero-area__text-area {
     padding-top: 180px;
     padding-bottom: 191px;
   }
-  .hero-area__text-area h1 {
+  .home-hero-area__text-area h1 {
     color: #FFF;
     font-family: Graphik;
     font-size: 64px;
@@ -163,7 +166,7 @@
     font-weight: 600;
     line-height: 84px;
   }
-  .hero-area__text-area p {
+  .home-hero-area__text-area p {
     color: #fff;
     font-family: Graphik;
     font-size: 22px;
@@ -173,7 +176,7 @@
     margin-top: 26px;
     opacity: 0.8000000119;
   }
-  .hero-area__trial-btn {
+  .home-hero-area__trial-btn {
     border-radius: 100px;
     color: #FFF;
     font-family: Graphik;
@@ -185,10 +188,10 @@
     background-color: #39B54A;
     margin-top: 30px;
   }
-  .hero-area__trial-option {
+  .home-hero-area__trial-option {
     margin-top: 20px;
   }
-  .hero-area__trial-txt {
+  .home-hero-area__trial-txt {
     color: #FFF;
     text-align: center;
     font-family: Graphik;
@@ -198,11 +201,11 @@
     line-height: normal;
     margin-left: 6px;
   }
-  .bottom-area {
+  .home-bottom-area {
     text-align: center;
     margin-top: 130px;
   }
-  .bottom-area h1 {
+  .home-bottom-area h1 {
     color: #0A2540;
     text-align: center;
     font-family: Graphik;
@@ -211,7 +214,7 @@
     font-weight: 500;
     line-height: 64px;
   }
-  .bottom-area p {
+  .home-bottom-area p {
     color: #0A2540;
     text-align: center;
     font-family: Graphik;
@@ -220,11 +223,11 @@
     font-weight: 400;
     line-height: 32px;
   }
-  .bottom-area__info {
+  .home-bottom-area__info {
     margin-top: 60px;
     margin-left: auto;
   }
-  .bottom-area__info-box {
+  .home-bottom-area__info-box {
     border: 1px solid rgba(66, 84, 102, 0.2);
     width: 369px;
     margin-left: auto;
@@ -233,10 +236,10 @@
     padding: 40px 22px;
     margin-bottom: 40px;
   }
-  .bottom-area__info-box:hover {
+  .home-bottom-area__info-box:hover {
     border: 1px solid #39B54A;
   }
-  .bottom-area__info-box h3 {
+  .home-bottom-area__info-box h3 {
     margin-top: 32px;
     color: #0A2540;
     text-align: center;
@@ -246,7 +249,7 @@
     font-weight: 500;
     line-height: 40px;
   }
-  .bottom-area__info-box p {
+  .home-bottom-area__info-box p {
     margin-top: 24px;
     color: #0A2540;
     text-align: center;
@@ -311,12 +314,13 @@
     margin-top: 30px;
   }
   footer {
-    background-image: url(../img/mobile-ftr-bg.png);
+    background-image: url(../img/mobile-ftr-bg.png) !important;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     margin-top: -120px;
     position: relative;
+    background-position: top !important;
   }
   footer .last-cild {
     padding-top: 298px;
@@ -332,8 +336,8 @@
   }
   footer .last-cild li {
     list-style: none;
-    margin: 20px auto;
-    margin-bottom: 50px;
+    margin: 50px 30px !important;
+    width: 100%;
   }
   footer .last-cild li a {
     color: #FFF !important;
@@ -354,20 +358,19 @@
   }
   .finis-area {
     height: 80px;
-    justify-content: none;
+    justify-content: center !important;
     align-items: center;
-    display: flex;
     flex-direction: column;
   }
   .finis-area__foter-logo .col-xl-1.offset-xl-1 {
     width: auto;
   }
   .finis-area__foter-logo img {
-    margin-left: 0;
+    margin-left: 0 !important;
     position: relative;
     padding: 20px 50px;
     background: #fff;
-    top: -40px;
+    top: 23px !important;
     border-radius: 24px;
   }
   .finis-area p {
@@ -378,9 +381,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
-    top: 0;
+    top: 20px !important;
     position: relative;
     padding-bottom: 20px;
+  }
+  .finis-area__social-link {
+    margin-top: 45px;
   }
   .finis-area__social-link .fb {
     padding: 10px 13px !important;
@@ -415,18 +421,18 @@
   nav .button button {
     margin: 0;
   }
-  .hero-area {
+  .home-hero-area {
     height: 100vh;
   }
-  .hero-area__text-area h1 {
+  .home-hero-area__text-area h1 {
     color: #FFF;
     font-family: Graphik;
-    font-size: 40px;
+    font-size: 40px !important;
     font-style: normal;
     font-weight: 600;
-    line-height: 50px;
+    line-height: 50px !important;
   }
-  .hero-area__text-area p {
+  .home-hero-area__text-area p {
     color: #FFF;
     font-family: Graphik;
     font-size: 16px;
@@ -434,11 +440,11 @@
     font-weight: 400;
     line-height: 24px;
   }
-  .bottom-area {
+  .home-bottom-area {
     text-align: center;
     margin-top: 130px;
   }
-  .bottom-area h1 {
+  .home-bottom-area h1 {
     color: #0A2540;
     text-align: center;
     font-family: Graphik;
@@ -447,7 +453,7 @@
     font-weight: 500;
     line-height: 40px;
   }
-  .bottom-area p {
+  .home-bottom-area p {
     color: #0A2540;
     text-align: center;
     font-family: Graphik;
@@ -456,11 +462,11 @@
     font-weight: 400;
     line-height: 24px;
   }
-  .bottom-area__info {
+  .home-bottom-area__info {
     margin-top: 60px;
     margin-left: auto;
   }
-  .bottom-area__info-box {
+  .home-bottom-area__info-box {
     border: 1px solid rgba(66, 84, 102, 0.2);
     width: 369px;
     margin-left: auto;
@@ -473,6 +479,7 @@
     height: auto;
     padding-bottom: 30px;
     width: 100%;
+    height: auto !important;
   }
   .foter h1 {
     color: #0A2540;
@@ -537,8 +544,10 @@
   }
   footer .last-cild__menu .d-flex {
     margin: auto;
-    display: grid !important;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex !important;
+  }
+  footer .last-cild__menu .for-mobile {
+    display: flex !important;
   }
   .finis-area {
     height: auto;
@@ -559,6 +568,9 @@
   }
 }
 @media (max-width: 767px) {
+  .navbar-toggler {
+    width: 56px !important;
+  }
   .navbar-nav {
     margin: 20px 0;
   }
@@ -573,81 +585,84 @@
   nav .button button {
     margin: 0;
   }
-  .hero-area {
-    background-image: url(../img/mobile-hero-bg.png);
+  .home-hero-area {
+    background-image: url(../img/mobile-hero-bg.png) !important;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
   }
-  .hero-area__text-area {
-    padding-top: 85px;
+  .home-hero-area__text-area {
+    padding-top: 85px !important;
     margin-top: 48px;
     padding-bottom: 0;
   }
-  .hero-area__text-area h1 {
+  .home-hero-area__text-area h1 {
     color: #FFF;
     font-family: Graphik;
-    font-size: 40px;
+    font-size: 40px !important;
     font-style: normal;
     font-weight: 600;
-    line-height: 50px;
+    line-height: 50px !important;
   }
-  .hero-area__text-area p {
+  .home-hero-area__text-area p {
     color: #FFF;
     font-family: Graphik;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    width: 259px;
-    margin-top: 18px;
+    width: 80%;
   }
-  .hero-area__text-area button {
-    margin-top: 8px;
+  .home-hero-area__text-area button {
+    margin-top: 2px;
     width: auto;
     height: auto;
     padding: 10px 22px;
   }
-  .hero-area__trial-option {
-    margin-top: 20px;
-    padding-left: 22px;
-    padding-bottom: 50px;
+  .home-hero-area__text-area img {
+    width: 28%;
+    position: absolute;
+    left: 12px;
+    margin-top: -11px;
   }
-  .hero-area__trial-check-box {
+  .home-hero-area__trial-check-box {
     top: 0;
   }
-  .hero-area__trial-txt {
+  .home-hero-area__trial-txt {
     width: 54%;
-    margin-left: auto !important;
+    margin-left: 6px !important;
     text-align: start;
   }
-  .bottom-area {
+  .home-hero-area .form-check .form-check-input {
+    margin-left: -1rem !important;
+  }
+  .home-bottom-area {
     text-align: center;
     margin-top: 130px;
   }
-  .bottom-area h1 {
+  .home-bottom-area h1 {
     color: #0A2540;
     text-align: center;
     font-family: Graphik;
-    font-size: 32px;
+    font-size: 32px !important;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 40px !important;
   }
-  .bottom-area p {
+  .home-bottom-area p {
     color: #0A2540;
     text-align: center;
     font-family: Graphik;
-    font-size: 16px;
+    font-size: 16px !important;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 24px !important;
   }
-  .bottom-area__info {
+  .home-bottom-area__info {
     margin-top: 60px;
     margin-left: auto;
   }
-  .bottom-area__info-box {
+  .home-bottom-area__info-box {
     border: 1px solid rgba(66, 84, 102, 0.2);
     width: 369px;
     margin-left: auto;
@@ -660,6 +675,7 @@
     height: auto;
     padding-bottom: 30px;
     width: 90%;
+    height: auto !important;
   }
   .foter .foter-titel img {
     left: 0;
@@ -688,7 +704,7 @@
     line-height: 24px;
   }
   .foter button {
-    padding: 10px 35px;
+    padding: 10px 35px !important;
     margin: 20px 0;
   }
   footer {
@@ -703,6 +719,10 @@
   footer .last-cild {
     padding-top: 298px;
   }
+  footer .last-cild__home-menu {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
   footer .last-cild h1 {
     color: #FFF;
     text-align: center;
@@ -714,8 +734,16 @@
   }
   footer .last-cild li {
     list-style: none;
-    margin: 50px 0;
+    margin: 50px 8px !important;
   }
+}
+@media (max-width: 767px) and (max-width: 321px) {
+  footer .last-cild li {
+    margin: 10px 0 !important;
+    width: 74px;
+  }
+}
+@media (max-width: 767px) {
   footer .last-cild li a {
     color: #FFF !important;
     text-align: center;
@@ -726,30 +754,47 @@
     line-height: normal;
     text-decoration: none;
   }
-  footer .last-cild__menu {
+  footer .last-cild__home-menu {
     margin-left: auto;
   }
-  footer .last-cild__menu .d-flex {
+  footer .last-cild__home-menu .d-flex {
     margin: auto;
-    display: grid !important;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+  footer .last-cild__home-menu .for-mobile {
+    display: flex !important;
+  }
+}
+@media (max-width: 767px) and (max-width: 321px) {
+  footer .last-cild__home-menu .for-mobile {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr auto;
+  }
+}
+@media (max-width: 767px) {
   .finis-area {
     height: auto;
     flex-direction: column;
+    justify-content: center !important;
   }
   .finis-area__foter-logo {
     margin-left: 0;
     width: auto;
   }
   .finis-area__foter-logo img {
-    margin: 0;
-    margin-top: -10px;
+    margin-left: 0 !important;
+    margin-top: 62px;
+    top: 0 !important;
   }
   .finis-area p {
     order: 3;
     top: 25px;
     padding-bottom: 30px;
+  }
+  .finis-area__social-link {
+    margin-top: 40px;
+  }
+  .finis-area p {
+    margin-top: 20px;
   }
 }
 * {
@@ -759,7 +804,7 @@
 }
 
 .page2-hero-area {
-  background-image: url(../smart-website/assests/img/pg-2-hero-bg.png);
+  background-image: url(../img/pg-2-hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -2012,7 +2057,7 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  .d-flex {
+  .mobile {
     flex-direction: column !important;
   }
 }
@@ -2156,18 +2201,18 @@ nav .button button {
   border: 1px solid rgba(10, 37, 64, 0.3098039216);
 }
 
-.hero-area {
+.home-hero-area {
   background-image: url(../img/hero-bg-done.png);
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
   height: 100vh;
 }
-.hero-area__text-area {
+.home-hero-area__text-area {
   padding-top: 180px;
   padding-bottom: 191px;
 }
-.hero-area__text-area h1 {
+.home-hero-area__text-area h1 {
   color: #FFF;
   font-family: Graphik;
   font-size: 64px;
@@ -2175,7 +2220,7 @@ nav .button button {
   font-weight: 600;
   line-height: 84px;
 }
-.hero-area__text-area p {
+.home-hero-area__text-area p {
   color: #fff;
   font-family: Graphik;
   font-size: 22px;
@@ -2185,7 +2230,7 @@ nav .button button {
   margin-top: 26px;
   opacity: 0.8000000119;
 }
-.hero-area__trial-btn {
+.home-hero-area__trial-btn {
   border-radius: 100px;
   color: #FFF;
   font-family: Graphik;
@@ -2197,30 +2242,31 @@ nav .button button {
   background-color: #39B54A;
   margin-top: 30px;
 }
-.hero-area__trial-option {
+.home-hero-area__trial-option {
+  display: flex;
   margin-top: 20px;
 }
-.hero-area__trial-check-box {
+.home-hero-area__trial-check-box {
   top: 1px;
   position: relative;
 }
-.hero-area__trial-txt {
+.home-hero-area__trial-txt {
   vertical-align: bottom;
   color: #FFF;
-  text-align: center;
   font-family: Graphik;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 6px;
+  margin-left: 10px;
+  margin-top: 6px;
 }
 
-.bottom-area {
+.home-bottom-area {
   text-align: center;
   margin-top: 130px;
 }
-.bottom-area h1 {
+.home-bottom-area h1 {
   color: #0A2540;
   text-align: center;
   font-family: Graphik;
@@ -2229,7 +2275,7 @@ nav .button button {
   font-weight: 500;
   line-height: 64px;
 }
-.bottom-area p {
+.home-bottom-area p {
   color: #0A2540;
   text-align: center;
   font-family: Graphik;
@@ -2238,10 +2284,10 @@ nav .button button {
   font-weight: 400;
   line-height: 32px;
 }
-.bottom-area__info {
+.home-bottom-area__info {
   margin-top: 60px;
 }
-.bottom-area__info-box {
+.home-bottom-area__info-box {
   border: 1px solid rgba(66, 84, 102, 0.2);
   width: 369px;
   margin-left: 60px;
@@ -2249,10 +2295,10 @@ nav .button button {
   border-radius: 16px;
   padding: 40px 22px;
 }
-.bottom-area__info-box:hover {
+.home-bottom-area__info-box:hover {
   border: 1px solid #39B54A;
 }
-.bottom-area__info-box h3 {
+.home-bottom-area__info-box h3 {
   margin-top: 32px;
   color: #0A2540;
   text-align: center;
@@ -2262,7 +2308,7 @@ nav .button button {
   font-weight: 500;
   line-height: 40px;
 }
-.bottom-area__info-box p {
+.home-bottom-area__info-box p {
   margin-top: 24px;
   color: #0A2540;
   text-align: center;
@@ -2275,7 +2321,7 @@ nav .button button {
 
 .foter {
   text-align: center;
-  width: 993px;
+  width: 100%;
   height: 471px;
   border-radius: 24px;
   background: #F5F6FA;

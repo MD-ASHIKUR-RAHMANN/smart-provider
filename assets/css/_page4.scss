@@ -139,7 +139,7 @@ form{
         width: 100%;
     }
   }
-  .d-flex{
+  .mobile{
     @media (max-width:768px) {
         flex-direction: column !important;
     }
