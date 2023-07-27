@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 .page2-hero-area{
+    position: relative;
     background-image: url(../img/pg-2-hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     height: 590px;
     width: 100%;
+    @media (max-width:425px) {
+        height: 330px !important;
+    }
+    @media (max-width:375px) {
+        height: 400px !important;
+    }
     &__titel{
         margin-top: 100px;
         h1{
@@ -23,18 +30,37 @@
         }
     }
 }
-.hero-img{
+.featur-hero-img{
     width: 100%;
     justify-content: center;
     display: flex;
     margin-top: -20px;
     & img{
-        width: 100%;
+        width: 70%;
+        margin: auto;
+        position: absolute;
+        top: 230px;
+        @media (max-width:768px) {
+            top: 340px;
+            width: 100%;
+        }
+        @media (max-width:425px) {
+            top: 200px;
+        }
+        @media (max-width:375px) {
+            top: 290px;
+        }
     }
 }
-.midle-area{
+.featur-midle-area{
+    margin-top: 600px;
     width: 100%;
-    position: relative;
+    @media (max-width:1440px) {
+        margin-top: 400px;
+    }
+    @media (max-width:425px) {
+        margin-top: 200px;
+    }
     &__info-box{
         margin-top: 70px;
         position: relative;

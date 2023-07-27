@@ -124,10 +124,10 @@ $desktop: '(min-width: 1281px)';
 .midle-area{
     margin-top: 260px;
     @media (max-width: 768px) {
-        margin-top: 90px;
+        margin-top: 90px !important;
     }
     @media (max-width: 425px) {
-        margin-top: 50px;
+        margin-top: 70px !important;
         width: 100% !important;
     }
     h1{

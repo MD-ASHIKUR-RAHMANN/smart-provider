@@ -11,15 +11,16 @@ $desktop: '(min-width: 1281px)';
             }
         }
     }
-    .hero-img{
+    .featur-hero-img{
 
         & img{
             width: 100%;
         }
     }
-    .midle-area{
+    .featur-midle-area{
         width: 100%;
         position: relative;
+        margin-top: 380px;
         &__info-box{
             margin-top: 30px;
             position: relative;
@@ -68,7 +69,6 @@ $desktop: '(min-width: 1281px)';
 }
 @media #{$large_mobile}{
     .page2-hero-area{
-        height: 280px;
         &__titel{
             margin-top: 40px;
             h1{
@@ -79,7 +79,7 @@ $desktop: '(min-width: 1281px)';
             }
         }
     }
-    .midle-area{
+    .featur-midle-area{
         width: 100%;
         position: relative;
         &__info-box{
@@ -191,7 +191,7 @@ $desktop: '(min-width: 1281px)';
             }
         }
     }
-    .midle-area{
+    .featur-midle-area{
         width: 100%;
         position: relative;
         &__info-box{

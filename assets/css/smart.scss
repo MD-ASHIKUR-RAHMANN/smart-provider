@@ -32,6 +32,14 @@ nav{
 & .button{
     margin: auto 0;
     margin-left: 30px;
+    @media (max-width:426px) {
+
+            margin-left: 0 !important;
+            button{
+                margin-bottom: 25px !important;
+            }
+
+    }
     & .sign-in{
         background-color: #FFF;
         &:hover{
@@ -110,6 +118,9 @@ nav{
 }
 .home-bottom-area{
     text-align: center;
+    @media (max-width:426px) {
+        margin-top: 0;
+    }
     & h1{
         color: #0A2540;
         text-align: center;
