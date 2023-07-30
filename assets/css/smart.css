@@ -808,15 +808,21 @@
   background-position: bottom;
   height: 590px;
   width: 100%;
+  margin-top: 70px;
 }
 @media (max-width: 425px) {
   .page2-hero-area {
-    height: 330px !important;
+    height: 370px !important;
   }
 }
 @media (max-width: 375px) {
   .page2-hero-area {
-    height: 400px !important;
+    height: 350px !important;
+  }
+}
+@media (max-width: 375px) {
+  .page2-hero-area {
+    height: 370px !important;
   }
 }
 .page2-hero-area__titel {
@@ -842,22 +848,27 @@
   width: 70%;
   margin: auto;
   position: absolute;
-  top: 230px;
+  top: 350px;
 }
 @media (max-width: 768px) {
   .featur-hero-img img {
-    top: 340px;
+    top: 410px;
     width: 100%;
   }
 }
 @media (max-width: 425px) {
   .featur-hero-img img {
-    top: 200px;
+    top: 340px;
   }
 }
 @media (max-width: 375px) {
   .featur-hero-img img {
-    top: 290px;
+    top: 330px;
+  }
+}
+@media (max-width: 375px) {
+  .featur-hero-img img {
+    top: 380px !important;
   }
 }
 
@@ -872,7 +883,12 @@
 }
 @media (max-width: 425px) {
   .featur-midle-area {
-    margin-top: 200px;
+    margin-top: 180px;
+  }
+}
+@media (max-width: 325px) {
+  .featur-midle-area {
+    margin-top: 130px;
   }
 }
 .featur-midle-area__info-box {
@@ -1342,7 +1358,6 @@
     align-items: center;
   }
   .featur-midle-area__info-box__titel {
-    padding: 0 30px !important;
     flex-direction: column;
     order: 2;
     width: 100%;
@@ -1461,6 +1476,7 @@
   background-position: bottom;
   height: 400px;
   width: 100%;
+  margin-top: 70px;
 }
 @media (max-width: 767px) {
   .page3-hero-area {
@@ -1939,6 +1955,7 @@
   background-position: bottom;
   height: 400px;
   width: 100%;
+  margin-top: 70px;
 }
 @media (max-width: 767px) {
   .page4-hero-area {
@@ -2206,12 +2223,22 @@ button {
   margin: 0;
 }
 
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
 .bg-dark {
   background-color: white !important;
 }
 
+.nav-item {
+  margin: 0 15px;
+}
+
 .navbar-dark .navbar-nav .nav-link.active {
-  color: black;
+  color: #0A2540;
 }
 
 nav .navbar-toggler {
@@ -2233,18 +2260,26 @@ nav .button {
   }
 }
 nav .button .sign-in {
-  background-color: #FFF;
+  background: transparent;
+  color: #0a2540;
+  border: 1.5px solid rgba(10, 37, 64, 0.15);
+  padding: 10px 23px;
+  top: 1px;
+  position: relative;
 }
 nav .button .sign-in:hover {
   background-color: #FFF !important;
   color: black !important;
 }
-nav .button button {
+nav .button a {
   color: black;
   border-radius: 30px;
-  margin: 0 5px;
+  margin: 0 10px;
   padding: 7px 20px;
   border: 1px solid rgba(10, 37, 64, 0.3098039216);
+  border-radius: 1000px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .home-hero-area {
@@ -2253,6 +2288,11 @@ nav .button button {
   width: 100%;
   background-size: cover;
   height: 100vh;
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .home-hero-area {
+    height: 650px;
+  }
 }
 .home-hero-area__text-area {
   padding-top: 180px;
@@ -2275,6 +2315,17 @@ nav .button button {
   line-height: 34px;
   margin-top: 26px;
   opacity: 0.8000000119;
+}
+@media (max-width: 425px) {
+  .home-hero-area__text-area p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.home-hero-area__text-area button {
+  padding: 7px 25px;
+  font-size: 18px;
 }
 .home-hero-area__trial-btn {
   border-radius: 100px;
@@ -2317,6 +2368,11 @@ nav .button button {
     margin-top: 0;
   }
 }
+@media (max-width: 375px) and (min-width: 350px) {
+  .home-bottom-area__titel {
+    margin-top: 50px;
+  }
+}
 .home-bottom-area h1 {
   color: #0A2540;
   text-align: center;
@@ -2340,14 +2396,19 @@ nav .button button {
 }
 .home-bottom-area__info-box {
   border: 1px solid rgba(66, 84, 102, 0.2);
-  width: 369px;
-  margin-left: 60px;
   margin-bottom: 60px;
   border-radius: 16px;
   padding: 40px 22px;
+  flex-basis: 31.7%;
+  margin: 10px;
 }
 .home-bottom-area__info-box:hover {
   border: 1px solid #39B54A;
+}
+@media (max-width: 425px) {
+  .home-bottom-area__info-box {
+    padding: 20px 10px;
+  }
 }
 .home-bottom-area__info-box h3 {
   margin-top: 32px;
@@ -2359,6 +2420,11 @@ nav .button button {
   font-weight: 500;
   line-height: 40px;
 }
+@media (max-width: 425px) {
+  .home-bottom-area__info-box h3 {
+    margin-top: 20px;
+  }
+}
 .home-bottom-area__info-box p {
   margin-top: 24px;
   color: #0A2540;
@@ -2368,6 +2434,33 @@ nav .button button {
   font-style: normal;
   font-weight: 400;
   line-height: 33px;
+}
+@media (max-width: 425px) {
+  .home-bottom-area__info-box p {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1399px) and (min-width: 1024px) {
+  .home-bottom-area__info-box {
+    flex-basis: 31%;
+  }
+}
+@media (max-width: 768px) {
+  .home-bottom-area__info-box {
+    flex-basis: 80%;
+    margin: auto;
+    margin-bottom: 40px !important;
+  }
+}
+@media (max-width: 425px) {
+  .home-bottom-area__info-box {
+    flex-basis: 100%;
+    margin: auto;
+    margin-bottom: 40px !important;
+  }
+  .home-bottom-area__info-box img {
+    width: 35%;
+  }
 }
 
 .foter {
@@ -2385,7 +2478,18 @@ nav .button button {
   position: absolute;
   width: 82px;
   top: 130px;
-  left: 135px;
+  left: 193px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .foter .foter-titel img {
+    left: 68px;
+  }
+}
+@media (max-width: 425px) {
+  .foter .foter-titel img {
+    left: 47px;
+    top: 119px;
+  }
 }
 .foter h1 {
   margin-top: 80px;
@@ -2422,6 +2526,11 @@ nav .button button {
   border-radius: 1000px;
   background: #39B54A;
   margin-top: 30px;
+}
+@media (max-width: 425px) {
+  .foter button {
+    margin-top: 5px;
+  }
 }
 .foter footer {
   background-image: url(../img/foter-bg.png) !important;

@@ -11,11 +11,15 @@
     background-position: bottom;
     height: 590px;
     width: 100%;
+    margin-top: 70px;
     @media (max-width:425px) {
-        height: 330px !important;
+        height: 370px !important;
     }
     @media (max-width:375px) {
-        height: 400px !important;
+        height: 350px !important;
+    }
+    @media (max-width:375px) {
+        height: 370px !important;
     }
     &__titel{
         margin-top: 100px;
@@ -39,16 +43,19 @@
         width: 70%;
         margin: auto;
         position: absolute;
-        top: 230px;
+        top: 350px;
         @media (max-width:768px) {
-            top: 340px;
+            top: 410px;
             width: 100%;
         }
         @media (max-width:425px) {
-            top: 200px;
+            top: 340px;
         }
         @media (max-width:375px) {
-            top: 290px;
+            top: 330px;
+        }
+        @media (max-width:375px) {
+            top: 380px !important;
         }
     }
 }
@@ -59,7 +66,10 @@
         margin-top: 400px;
     }
     @media (max-width:425px) {
-        margin-top: 200px;
+        margin-top: 180px;
+    }
+    @media (max-width:325px) {
+        margin-top: 130px;
     }
     &__info-box{
         margin-top: 70px;

@@ -199,8 +199,7 @@ $desktop: '(min-width: 1281px)';
             margin-top: 30px;
             position: relative;
             align-items: center;
-            &__titel{
-                padding: 0 30px !important;        
+            &__titel{     
                 flex-direction: column;
                 order: 2;
                 width: 100%;

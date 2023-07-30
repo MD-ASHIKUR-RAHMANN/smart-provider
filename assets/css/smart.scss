@@ -16,11 +16,19 @@ $desktop: '(min-width: 1281px)';
 .row{
     margin: 0;
 }
+.container{
+    @media (min-width:1400px) {
+        max-width: 1320px;
+    }
+}
 .bg-dark{
     background-color: white !important;
 }
+.nav-item{
+    margin: 0 15px;
+}
 .navbar-dark .navbar-nav .nav-link.active{
-    color: black;
+    color: #0A2540;
 }
 nav{
     & .navbar-toggler {
@@ -33,7 +41,6 @@ nav{
     margin: auto 0;
     margin-left: 30px;
     @media (max-width:426px) {
-
             margin-left: 0 !important;
             button{
                 margin-bottom: 25px !important;
@@ -41,18 +48,26 @@ nav{
 
     }
     & .sign-in{
-        background-color: #FFF;
+        background: transparent;
+        color: #0a2540;
+        border: 1.5px solid rgba(10,37,64,.15);
+        padding: 10px 23px;
+        top: 1px;
+        position: relative;
         &:hover{
             background-color: #FFF !important;
             color: black !important;
         }
     }
-    & button{
+    & a{
         color: black;
         border-radius: 30px;
-        margin: 0 5px;
+        margin: 0 10px;
         padding: 7px 20px;
         border: 1px solid #0a25404f;
+        border-radius: 1000px;
+        text-decoration: none;
+        cursor: pointer;
     }
 }
 }
@@ -62,6 +77,9 @@ nav{
     width: 100%;
     background-size: cover;
     height: 100vh;
+    @media (max-width:375px) and (min-width:320px) {
+        height: 650px;
+    }
     &__text-area{
             padding-top: 180px;
             padding-bottom: 191px;
@@ -82,6 +100,15 @@ nav{
             line-height: 34px; 
             margin-top: 26px;
             opacity: 0.800000011920929;
+            @media (max-width:425px) {
+                margin-top: 20px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        button{
+            padding: 7px 25px;
+            font-size: 18px;
         }
     }
     &__trial-btn{
@@ -121,6 +148,11 @@ nav{
     @media (max-width:426px) {
         margin-top: 0;
     }
+    &__titel{
+        @media (max-width:375px) and (min-width:350px) {
+            margin-top: 50px;
+         }
+    }
     & h1{
         color: #0A2540;
         text-align: center;
@@ -145,13 +177,16 @@ nav{
     }
     &__info-box{
         border: 1px solid rgba(66, 84, 102, 0.20);
-        width: 369px;
-        margin-left: 60px;
         margin-bottom: 60px;
         border-radius: 16px;
         padding: 40px 22px;
+        flex-basis: 31.7%;
+        margin: 10px;
         &:hover{
             border: 1px solid #39B54A;
+        }
+        @media (max-width:425px) {
+            padding: 20px 10px;
         }
         & h3{
             margin-top: 32px;
@@ -162,6 +197,9 @@ nav{
             font-style: normal;
             font-weight: 500;
             line-height: 40px;
+            @media (max-width:425px) {
+                margin-top: 20px;
+            }
         }
         & p{
             margin-top: 24px;
@@ -172,6 +210,25 @@ nav{
             font-style: normal;
             font-weight: 400;
             line-height: 33px;
+            @media (max-width:425px) {
+                margin-top: 10px;
+            }
+        }
+        @media (max-width:1399px) and (min-width:1024px) {
+            flex-basis: 31%;
+        }
+        @media (max-width:768px) {
+            flex-basis: 80%;
+            margin: auto;
+            margin-bottom: 40px !important;
+        }
+        @media (max-width:425px) {
+            flex-basis: 100%;
+            margin: auto;
+            margin-bottom: 40px !important;
+            img{
+                width: 35%;
+            }
         }
     }
 }
@@ -190,7 +247,14 @@ nav{
             position: absolute;
             width: 82px;
             top: 130px;
-            left: 135px;
+            left: 193px;
+            @media #{$tab_device} {
+                left: 68px;
+            }
+            @media (max-width:425px) {
+                left: 47px;
+                top: 119px;
+            }
         }
     }
     & h1{
@@ -228,6 +292,9 @@ nav{
         border-radius: 1000px;
         background: #39B54A;
         margin-top: 30px;
+        @media (max-width:425px) {
+            margin-top: 5px;
+        }
     }
     footer{
         background-image: url(../img/foter-bg.png) !important;
