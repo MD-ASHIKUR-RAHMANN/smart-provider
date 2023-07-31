@@ -47,6 +47,9 @@ nav{
             }
 
     }
+    @media (max-width:1024px) {
+        margin-left: 0;
+    }
     & .sign-in{
         background: transparent;
         color: #0a2540;
@@ -342,6 +345,11 @@ footer{
             list-style: none;
             margin: 50px 41px;
             text-align: center;
+            @media (max-width:1024px) {
+                margin: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
             a{
                 color: #FFF !important;
                 text-align: center;
@@ -351,10 +359,26 @@ footer{
                 font-weight: 500;
                 line-height: normal;
                 text-decoration: none;
+                @media (max-width:375px) {
+                    font-size: 14.5px !important;
+                }
+                @media (max-width:325px) {
+                    font-size: 13px !important;
+                }
             }
         }
-        &__menu{
+        &__home-menu{
             margin-left: none;
+            padding: 0 200px;
+            @media (max-width:1024px) {
+                padding: 0 80px; 
+            }
+            @media #{$tab_device} {
+                padding: 0;
+            }
+            @media (max-width:425px) {
+                padding: 0; 
+            }
         }
     }
 }

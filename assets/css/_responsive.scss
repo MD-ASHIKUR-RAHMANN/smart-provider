@@ -638,6 +638,9 @@ $desktop: '(min-width: 1281px)';
                 position: absolute;
                 left: 12px;
                 margin-top: -11px;
+                @media (max-width:320px) {
+                    left: 22px;
+                }
             }
         }
         &__trial-option{
@@ -778,8 +781,6 @@ $desktop: '(min-width: 1281px)';
                 .for-mobile{
                     display: flex !important;
                     @media (max-width:321px) {
-                        display: grid !important;
-                        grid-template-columns: 1fr 1fr auto;
                     }
                 }
             }

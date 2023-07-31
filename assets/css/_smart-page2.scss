@@ -77,7 +77,6 @@
         align-items: center;
         &__titel{
             width: 50%;
-            padding-right: 155px;
             h1{
                 color: var(--title-color, #0A2540);
                 font-family: Graphik;
@@ -93,7 +92,8 @@
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 34px; 
+                line-height: 34px;
+                padding-right: 10%;
             }
         }
         &__img{
@@ -109,7 +109,7 @@
         align-items: center;
         &__titel{
             width: 50%;            
-            padding-left: 155px;
+            padding-left: 8%;
             h1{
                 color: var(--title-color, #0A2540);
                 font-family: Graphik;
