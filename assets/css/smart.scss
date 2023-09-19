@@ -379,6 +379,10 @@ footer{
             @media (max-width:425px) {
                 padding: 0; 
             }
+                & .for-mobile .d-flex{
+                    @media (max-width:426px) {
+                }
+            }
         }
     }
 }
