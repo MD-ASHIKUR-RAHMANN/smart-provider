@@ -53,6 +53,7 @@ $desktop: '(min-width: 1281px)';
         background-size: cover;
         width: 100%;
         margin-top: -40px;
+        background-position-x: center !important;
         .last-cild{
             padding-top: 204px;
             &__menu{
