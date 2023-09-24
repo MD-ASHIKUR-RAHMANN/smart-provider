@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* body button{
+  border: none;
+} */
 @media (max-width: 1199px) and (min-width: 1024px) {
   .nav__bars {
     margin: auto;
@@ -1954,6 +1956,10 @@
   }
 }
 
+#msg label {
+  text-align: center;
+}
+
 .page4-hero-area {
   background-image: url(../img/pg-2-hero-bg.png);
   background-repeat: no-repeat;
@@ -2573,6 +2579,7 @@ footer {
   margin-top: -120px;
   position: relative;
   padding-bottom: 50px;
+  background-position: top;
 }
 footer .last-cild {
   padding-top: 298px;
