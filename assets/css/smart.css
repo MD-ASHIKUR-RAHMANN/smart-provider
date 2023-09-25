@@ -3,9 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* body button{
-  border: none;
-} */
+
 @media (max-width: 1199px) and (min-width: 1024px) {
   .nav__bars {
     margin: auto;
